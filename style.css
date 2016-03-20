@@ -5,5 +5,28 @@
 
 
 body {
-	background: blue;
+	background: green;
+}
+
+
+header {
+	background: url(https://allgamein.files.wordpress.com/2012/02/rolled-paint-map-of-the-world-map-art-print.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+
+.title{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-align: center;
+	font-size: 3em;
+
+}
+
+#main {
+	width: 80%;
+	margin: 20px auto;
 }
